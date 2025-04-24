@@ -100,7 +100,7 @@ footer a {
     .navbar-list {
         justify-content: center;
         padding-left: 0;
-        padding-top: 40px; 
+        padding-top: 20px; 
         margin-bottom: 0;
     }
     
@@ -117,7 +117,7 @@ footer a {
 
     .about-me {
         width: 70%;
-        height: 400px;
+        height: auto; /* Adjusted height */
         overflow-y: auto;
     }
 

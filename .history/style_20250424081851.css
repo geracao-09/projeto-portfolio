@@ -117,7 +117,7 @@ footer a {
 
     .about-me {
         width: 70%;
-        height: 400px;
+        height: 400px; /* Adjusted height */
         overflow-y: auto;
     }
 

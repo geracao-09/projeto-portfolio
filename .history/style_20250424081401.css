@@ -7,19 +7,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
   height: 100vh;
   width: 100%;
   background-color: black;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .navbar-list {
@@ -68,14 +60,13 @@ main {
 }
 
 footer {
-  margin-top: auto;
-  padding-top: 1rem;
+    margin-top: 3rem;
+    padding-top: 1rem;
   background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  flex-shrink: 0;
 }
 
 footer ul {
@@ -100,7 +91,7 @@ footer a {
     .navbar-list {
         justify-content: center;
         padding-left: 0;
-        padding-top: 40px; 
+        padding-top: 40px;
         margin-bottom: 0;
     }
     
@@ -108,7 +99,7 @@ footer a {
         margin-top: 0;
         flex-direction: column-reverse;
         padding-left: 0;
-        gap: 1rem;
+        gap: 0;
     }
 
     .about-me-image {
@@ -117,7 +108,7 @@ footer a {
 
     .about-me {
         width: 70%;
-        height: 400px;
+        height: 50%;
         overflow-y: auto;
     }
 

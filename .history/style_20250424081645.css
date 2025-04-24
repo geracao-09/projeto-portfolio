@@ -100,7 +100,7 @@ footer a {
     .navbar-list {
         justify-content: center;
         padding-left: 0;
-        padding-top: 40px; 
+        padding-top: 20px; 
         margin-bottom: 0;
     }
     
@@ -108,7 +108,7 @@ footer a {
         margin-top: 0;
         flex-direction: column-reverse;
         padding-left: 0;
-        gap: 1rem;
+        gap: 1rem; /* Adjusted gap to reduce space */
     }
 
     .about-me-image {
@@ -117,7 +117,7 @@ footer a {
 
     .about-me {
         width: 70%;
-        height: 400px;
+        height: auto; /* Adjusted height */
         overflow-y: auto;
     }
 
